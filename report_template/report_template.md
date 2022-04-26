@@ -10,10 +10,9 @@ author: Ермолаев А.М.
 <div style="text-align: justify">Изучить идеологию и применение средств контроля версий и освоить умения по работе с git.</div>
 
 ## **Выполнение работы**
-<div style="text-align: justify">
 Создадим аккаунт и заполним основные данные на  сайте https://github.com.
 
-</div>
+
 
 ## Pdf output format
 toc: true # Table of contents
