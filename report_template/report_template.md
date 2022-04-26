@@ -12,6 +12,7 @@ author: Ермолаев А.М.
 ## **Выполнение работы**
 <div style="text-align: justify">
 Создадим аккаунт и заполним основные данные на  сайте https://github.com.
+
 </div>
 
 ## Pdf output format
