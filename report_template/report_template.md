@@ -10,7 +10,7 @@ author: Ермолаев А.М.
 ## **Выполнение работы**
 Создадим аккаунт и заполним основные данные на  сайте https://github.com.
 
-![screen](screenshots\s1.png)
+![screen](s1.png)
 
 Установим git-flow в Fedora Linux при помощи терминала при помощи данных команд: 
 ```
@@ -19,36 +19,36 @@ wget --no-check-certificate -q https://raw.github.com/petervanderdoes/gitflow/de
 chmod +x gitflow-installer.sh
 sudo ./gitflow-installer.sh install stable
 ```
-![screen](screenshots\s2.png)
+![screen](s2.png)
 
 Зададим имя и email владельца репозитория:
 
-![screen](screenshots\s3.png)
+![screen](s3.png)
 
 Произведем другие базовые настройки. 
 
-![screen](screenshots\s4.png)
+![screen](s4.png)
 
 Создадим ключ ssh. После этого скопируем ключ в буфер обмена и добавим его в поле «SSH Keys» в разделе Settings-SSH and GPG Keys. 
 
-![screen](screenshots\s5.png)
-![screen](screenshots\s6.png)
+![screen](s5.png)
+![screen](s6.png)
 
 Создадим ключ gpg.  
 
-![screen](screenshots\s7.png)
+![screen](s7.png)
 
 После этого воспользуемся коммандой ```gpg2 --list-secret-keys --keyid-format=long```, чтобы перечислить длинную форму ключей GPG, для которых у вас есть открытый и закрытый ключ.
   
-![screen](screenshots\s8.png)
+![screen](s8.png)
 
 Затем воспользуемся командой gpg ```--armor --export <идентификатор ключа>```, чтобы вывести ключ в терминал.
 
-![screen](screenshots\s9.png)
+![screen](s9.png)
 
 Скопируем свой ключ GPG, начиная с -----BEGIN PGP PUBLIC KEY BLOCK-----и заканчивая -----END PGP PUBLIC KEY BLOCK-----, и добавим его в поле «GPG Keys» в разделе Settings-SSH and GPG Keys.  
 
-![screen](screenshots\s10.png)
+![screen](s10.png)
 
 Настроим автоматические подписи коммитов git.  
 ```
@@ -59,24 +59,24 @@ git config --global gpg.program $(which gpg2)
 
 Авторизуемся и настроим gh, параллельно получив специальный токен. 
 
-![screen](screenshots\s12.png)
+![screen](s12.png)
 
 Создадим шаблон рабочего пространства.  
 
-![screen](screenshots\s13.png)
+![screen](s13.png)
 
 После этого скопируем шаблон в собственный удаленный репозиторий и загрузим файлы в собственный каталог.
 
-![screen](screenshots\s14.png)
-![screen](screenshots\s15.png)
+![screen](s14.png)
+![screen](s15.png)
 
 Удалим файлы и создадим новый каталог os-intro. Проверим статус контроля версий при помощи команды git status.
 
-![screen](screenshots\s16.png)
+![screen](s16.png)
 
 Произведем отправку на сервер при помощи команд add, commit и push.
 
-![screen](screenshots\s17.png)
+![screen](s17.png)
 
 ## **Ответы на контрольные вопросы**
 ### *Вопрос 1*
