@@ -1,0 +1,45 @@
+<h2 id="цель"><strong>Цель</strong></h2>
+<p>Произвести следующие действия: - Разместить фотографию владельца
+сайта. - Разместить краткое описание владельца сайта (Biography). -
+Добавить информацию об интересах (Interests). - Добавить информацию от
+образовании (Education). - Сделать пост по прошедшей неделе. - Добавить
+пост на тему по выбору: + Управление версиями. Git. + Непрерывная
+интеграция и непрерывное развертывание (CI/CD). ##
+<strong>Выполнение</strong> ### Добавление к сайту данных о себе.</p>
+<pre><code>&lt;ваш проект&gt;\content\authors\admin\_index.md</code></pre>
+<figure>
+<img src="изображение.png" alt="добавление изображения" />
+<figcaption aria-hidden="true">добавление изображения</figcaption>
+</figure>
+<figure>
+<img src="биография.png" alt="изменение биографии" />
+<figcaption aria-hidden="true">изменение биографии</figcaption>
+</figure>
+<figure>
+<img src="интересы.png" alt="изменение интересов" />
+<figcaption aria-hidden="true">изменение интересов</figcaption>
+</figure>
+<figure>
+<img src="образование.png" alt="информация об образовании" />
+<figcaption aria-hidden="true">информация об образовании</figcaption>
+</figure>
+<h3 id="создание-и-заполнение-поста">Создание и заполнение поста</h3>
+<pre><code>hugo new post/&lt;название поста с расширением md&gt;</code></pre>
+<figure>
+<img src="разметка_поста.png" alt="разметка поста" />
+<figcaption aria-hidden="true">разметка поста</figcaption>
+</figure>
+<figure>
+<img src="пост1.png" alt="вид поста о прошедшей неделе" />
+<figcaption aria-hidden="true">вид поста о прошедшей неделе</figcaption>
+</figure>
+<figure>
+<img src="упр_версиями.png" alt="вид поста об управлении версиями" />
+<figcaption aria-hidden="true">вид поста об управлении
+версиями</figcaption>
+</figure>
+<h1 id="вывод">Вывод</h1>
+<p>В рамках выполнения работы я выполнил пункт 1 индивидуального
+проекта. <img
+src="https://camo.githubusercontent.com/c71fb25dd588f7c670936ad96af0acfac5fbfd40f580c13094b639e0c673ffc1/68747470733a2f2f637331322e70696b6162752e72752f706f73745f696d672f6269672f323032302f30382f32342f332f313539383233363731373139373332323433302e706e67"
+alt="все" /></p>
