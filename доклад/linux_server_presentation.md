@@ -96,6 +96,7 @@ sudo /etc/initd/postfix start
 ```
 3) Настройка параметров в файле ``` /etc/postfix/main.cf```
 
+![изменение файла main.cf](u9.png)
 
 **Результат работы сервера**
 ```
